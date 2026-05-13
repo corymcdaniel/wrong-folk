@@ -11,3 +11,9 @@
   port = 8888
   targetPort = 5173
   autoLaunch = false
+
+[[redirects]]
+  from = "https://wrongfolk.com/*"
+  to = "https://wrongfolks.com/:splat"
+  status = 301
+  force = true
